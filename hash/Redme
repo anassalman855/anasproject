@@ -1,0 +1,22 @@
+# Simple Password Cracker 🔑
+
+A simple **dictionary attack** password cracker written in **Python**.  
+It compares a list of common passwords with stored MD5 hashes to find the original password.
+
+## 📁 Project Files
+- `password_cracker.py` – Main script to crack passwords.
+- `common_passwords.txt` – A list of common passwords to test.
+- `username_hashes.txt` – File containing usernames and their MD5 password hashes.
+
+## 🔍 How It Works
+1. The script reads a list of common passwords.
+2. It reads a list of usernames with their MD5 password hashes.
+3. It hashes each password and compares it with the stored hashes.
+4. If a match is found, it prints the username and the original password.
+
+## 🛠️ Requirements
+Make sure you have Python 3 installed.
+
+## 🚀 How to Run
+```bash
+python password_cracker.py
